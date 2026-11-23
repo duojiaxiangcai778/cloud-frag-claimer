@@ -1,0 +1,16 @@
+# 构建产物
+*.apk
+*.apk.idsig
+dist/
+build/
+__pycache__/
+*.pyc
+
+# 签名（build.py 会按需自动生成 debug 签名）
+keystore/
+
+# 本机私有内容，不入库
+docs/probe/
+docs/allowlist.bin
+docs/screenshots/
+工作记录/
